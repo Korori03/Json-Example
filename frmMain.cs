@@ -24,7 +24,7 @@ namespace Json_test
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            string[] lines1 = System.IO.File.ReadAllLines(@"C:\Users\adenault.Houston1\Downloads\Anime.json");
+            string[] lines1 = System.IO.File.ReadAllLines(@"C:\Users\Korori\Desktop\test.json");
             string lines = String.Join("",lines1);
             var result = JsonConvert.DeserializeObject<List<JsonResult>>(lines);
          
